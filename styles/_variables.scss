@@ -1,0 +1,32 @@
+// Change according to .env [can be improved by editing the sass-loader
+$base-path: '/';
+
+/* Font Families */
+$font-family-sequis: 'Rubik';
+
+/* https://css-tricks.com/snippets/css/system-font-stack/ */
+$font-family-stack: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto,
+  helvetica, arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
+
+/* Font Filenames */
+$font-name-light: 'Rubik-Light';
+$font-name-light-italic: 'Rubik-LightItalic';
+$font-name-regular: 'Rubik-Regular';
+$font-name-italic: 'Rubik-Italic';
+$font-name-medium: 'Rubik-Medium';
+$font-name-medium-italic: 'Rubik-MediumItalic';
+$font-name-semi-bold: 'Rubik-SemiBold';
+$font-name-semi-bold-italic: 'Rubik-SemiBoldItalic';
+$font-name-bold: 'Rubik-Bold';
+$font-name-bold-italic: 'Rubik-BoldItalic';
+$font-name-extra-bold: 'Rubik-ExtraBold';
+$font-name-extra-bold-italic: 'Rubik-ExtraBoldItalic';
+
+/* Font Weights */
+$font-weight-light: 200;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;

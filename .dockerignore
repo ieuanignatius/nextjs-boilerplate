@@ -1,0 +1,40 @@
+# Logs
+Logs
+*.log
+npm-debug.log*
+
+# runtime data
+pids
+*.pid
+
+# coverage
+coverage
+
+# build
+.next
+
+# Dependency dir
+node_modules
+
+# git
+.github
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*
+
+# misc
+README.md
+.vscode
+.prettierrc.js
+.prettierignore
+.eslintignore
+.eslintrc.js
+LICENSE
+.editorconfig
+cypress.json
+cypress
+.DS_Store
