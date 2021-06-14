@@ -1,0 +1,16 @@
+version: "3.6"
+
+services:
+  nextjs:
+    ports:
+      - 8080:3000
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    env_file:
+      - .env
+      - .env.production.local

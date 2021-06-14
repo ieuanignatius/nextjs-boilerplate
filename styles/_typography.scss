@@ -1,0 +1,25 @@
+@import './variables';
+
+@mixin font-h1 {
+  font-size: 18px;
+  font-weight: $font-weight-medium;
+  line-height: 27px;
+}
+
+@mixin font-h2 {
+  font-size: 14px;
+  font-weight: $font-weight-medium;
+  line-height: 21px;
+}
+
+@mixin font-h3 {
+  font-size: 12px;
+  font-weight: $font-weight-medium;
+  line-height: 18px;
+}
+
+@mixin font-b2 {
+  font-size: 12px;
+  font-weight: $font-weight-regular;
+  line-height: 18px;
+}
